@@ -1,4 +1,4 @@
-# Ejercicio SISU Technologies
+
 
 # Planteamiento de problema
 
