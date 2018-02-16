@@ -1,0 +1,9 @@
+-Autor:Absalon Castañón Avila
+-Sitio de entrada:index.html
+-La funcionalidad dinámica se implementó con React por proporcionar una forma sencilla de modificar el DOM,
+que en este caso era la tarea mas complicada. 
+-La carpeta react tiene el código fuente y el archivo app.js tiene el compilado a traves de webpack y babel 
+para asegurar compatibilidad con navegadores.
+-El archivo data.js contiene un objeto de acceso a datos que se encarga de la interacción con la API de datos proporcionada.
+-Se cuido que el estilo css sea compatible con moviles y pantallas de escritorio.
+

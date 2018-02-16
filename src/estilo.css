@@ -1,0 +1,50 @@
+*{
+	font-family:arial;
+	font-size:1em;
+}
+.invalid{
+	border:solid red 1px;
+}
+.valid{
+	border:solid green 1px;
+}
+#cont{
+	
+	display:grid;
+	grid-auto-rows:minmax(2em,auto);
+	justify-content: center;
+	align-content:center;
+	grid-gap:10px;
+}
+.field{
+	border:solid gray 1px;
+	border-radius:10px;
+}
+.field>*{
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+.city{
+	background-color: lightyellow;
+	display:grid;
+	border:none;
+	grid-auto-rows:minmax(2em,auto);
+	align-items:center;
+}
+.sub{
+	text-align: center;
+	
+}
+.sub>*{
+	padding:0;
+	margin:1em;
+}
+input{
+	text-align: center;
+}
+@media(min-width:40em){
+	#cont{
+		padding-top:10%;
+	}
+}
